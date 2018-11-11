@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "easy-pay-lunch",
+  "private_key_id": "41a0dcb518cba6bb91e994726037ea13f228809b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDVtKowPVRP3Es2\noeBXu34tZbKJ9kbU/+lvjO1hLdDwhuXYsRP2Y5WzsIwu5Ujn63TGE/l6DydPY+vb\ndI63fv+nyhFLUS6emSe199Hk0TMctm7R7RICF0cgYLCmkJwbglKR5PXsPrWkK+zf\n4Pp6ke69ia426Hmde/Y2AbIrfp06HMF0mLzoW832pMdd5pNmHO3jvoRDl4TIXWep\nTaXyeD5nFB88CH5Qc82lJfuill6un5r/3CehIGnXr9scAF+0btIliT8y3+HNCyfP\nW9tHZ+JZy0qbp8WpwnpvdLjAguia+vm+Ti3x2rVt8Q1vJ0p2XaF2OrxvRF8qx1X+\nFfWvLJyHAgMBAAECggEAVvcJyM60WDlX/Df8sQcSDkxTzvPDGFu59ZSeZwz7eV4T\n+833xyz4VyLRsSXKOOKm5xJq1AKFpzeM3AX/K+oJBJFk30b+lzjRIapjJmABkj4l\nM9VrHiG15pWiXW38sO8kRc2sTAKq7U+YufR2SdnIEyaLmDmbf/xZkdm31R5VwjcB\n27QD8waYb2KgokSHEAXdkhSNBc/OFUB4O/KBiKIGpXSgkk97+t/2/8TpAq6MYqDF\nkgIMgo9bK1+Lhibc/KHBJ/4RPUi5M3ssOOtIxuUzrRgODfwOyKxlBcEkLUF2pIXC\nD1/7L8fcTQu4dXfVY26aVhtGYpNikClk4QHcvLUwmQKBgQD2e9E3qfMVwjYkWe3c\nDyqvk1If4xhh96LR7gcHvZiv7ZkPsC38ZbjzTUha/wA552EbdPQtqGiByKEtGJXH\nLavKRL8sgC/CBMG2JFTW4gSewQL1+GBCk0NZ6H4vHaPJBw9JBPprx0JZZsEBXJyQ\nlC8mHYx9SygKt8INs+SOG36wPwKBgQDd9ODsN2k1oBHaVKUGOAEwKTXdNdEAfSUt\nSSzecQs9I0PMlGG3R2xIGvYI9vLCP3SYngQ+yleaPhNta3/McoUjekKv0gFInohU\nbITPVzv4Ter6CZbIXIsefaQPHuEj3mK9qrjQ4Q1XaqqgR2QdlyMHFOCPTbcAcEaW\nsfrJ8lEBuQKBgCqcqUTYSsAePUH3khmTPavw6ie9GQAG0c09O1XpPzZa+zUtHiYe\nZ+UYHUQuBZn9GFqo03X5QWf+iW7Ea1Bt4t8rF2nYF2mRbPPSQCCOHoJbl+lyMSIR\nV3l5qib3FtOwNsJG7Awp/Jx8GS3lFuQf2i7auOkITznbHt9DlGXE9xf9AoGAaUKA\niIWet3e5/7i0qkZVCeoBSW8ENx8iSl+xj6w8kDnxJUwZKzoL+AYROB8k8Un2mYoW\nqVB8SwG1ZObeLK8CxNhuV8NYKIBGVwM/2LSeFBufnASAJXT95O/gpesXClOksB4O\nl8Ci+xny4R/6Mq5CRlF4TX2lk+erEjxFmw/3qsECgYA9HAodDNgDorLYUsgWs2D0\nRNjEtLSkbGL26o9ujxy+JeKmKpjpwpjyf/fMSc6J9JSmI4zdkCgY33T82dvlP494\nVF+3NQ3NnchNIn0GBwTXBgYu82Zwb1/55lPdS4ywDfjtC+r2yLAi2TP+0t5oO4Cm\n2gcVsmCFcvlee8ixtIWdhA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-v0h28@easy-pay-lunch.iam.gserviceaccount.com",
+  "client_id": "101426870486483780386",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-v0h28%40easy-pay-lunch.iam.gserviceaccount.com"
+}
