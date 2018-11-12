@@ -20,18 +20,18 @@ class ClienteController extends Controller
 
         $database = $firebase->getDatabase();
 
-       /* $newPost = $database
-        ->getReference('Establecimiento/Restaurante/Cliente')
+        /*$newPost = $database
+        ->getReference('Establecimiento/jbuywbeijwnvkj/cliente')
         ->push([
-        'Direccion' => 'La Cocha' ,
-        'Nombre' => 'Cristian Tapia',
-        'Telefono' => '0992874448',
-        'Token' => '8tr452'
+        'imagen' => 'B)' ,
+        'mail' => 'thecristianx@hotmail.com',
+        'nombre' => "Cristian X. Tapia",
+        'tokenUser' => '8tr452'
         ]);
         echo '<pre>';
         print_r($newPost->getvalue());*/
 
-        $ref = $database->getReference('Establecimiento/Restaurante/cliente');
+        $ref = $database->getReference('Establecimiento/jbuywbeijwnvkj/cliente');
         $subjects = $ref->getValue();
 
         foreach($subjects as $subject){
