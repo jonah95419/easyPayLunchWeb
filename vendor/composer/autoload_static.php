@@ -2314,8 +2314,6 @@ class ComposerStaticInite0b409d42d3f78c6267fe3a8a161b4e7
         'Kreait\\Firebase\\Value\\Provider' => __DIR__ . '/..' . '/kreait/firebase-php/src/Firebase/Value/Provider.php',
         'Kreait\\Firebase\\Value\\Uid' => __DIR__ . '/..' . '/kreait/firebase-php/src/Firebase/Value/Uid.php',
         'Kreait\\Firebase\\Value\\Url' => __DIR__ . '/..' . '/kreait/firebase-php/src/Firebase/Value/Url.php',
-        'Kreait\\GcpMetadata' => __DIR__ . '/..' . '/kreait/gcp-metadata/src/GcpMetadata.php',
-        'Kreait\\GcpMetadata\\Error' => __DIR__ . '/..' . '/kreait/gcp-metadata/src/GcpMetadata/Error.php',
         'Laravel\\Tinker\\ClassAliasAutoloader' => __DIR__ . '/..' . '/laravel/tinker/src/ClassAliasAutoloader.php',
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',

@@ -1864,8 +1864,6 @@ return array(
     'Kreait\\Firebase\\Value\\Provider' => $vendorDir . '/kreait/firebase-php/src/Firebase/Value/Provider.php',
     'Kreait\\Firebase\\Value\\Uid' => $vendorDir . '/kreait/firebase-php/src/Firebase/Value/Uid.php',
     'Kreait\\Firebase\\Value\\Url' => $vendorDir . '/kreait/firebase-php/src/Firebase/Value/Url.php',
-    'Kreait\\GcpMetadata' => $vendorDir . '/kreait/gcp-metadata/src/GcpMetadata.php',
-    'Kreait\\GcpMetadata\\Error' => $vendorDir . '/kreait/gcp-metadata/src/GcpMetadata/Error.php',
     'Laravel\\Tinker\\ClassAliasAutoloader' => $vendorDir . '/laravel/tinker/src/ClassAliasAutoloader.php',
     'Laravel\\Tinker\\Console\\TinkerCommand' => $vendorDir . '/laravel/tinker/src/Console/TinkerCommand.php',
     'Laravel\\Tinker\\TinkerCaster' => $vendorDir . '/laravel/tinker/src/TinkerCaster.php',
