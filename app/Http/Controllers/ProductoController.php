@@ -11,6 +11,8 @@ use Kreait\Firebase\ServiceAccount;
 class ProductoController extends Controller
 {
     
+
+    
     public function listarproductos(){
 
         $serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/firebaseService.json');

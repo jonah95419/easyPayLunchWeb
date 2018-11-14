@@ -1,18 +1,13 @@
 
 
 @extends('adminlte::page')
-
-
 @section('title', 'AdminLte')
-
 
 @section('content_header')
     <h1>Dashboard</h1>
 @stop
 
-
 @section('content')
-
 
 <div class="container" align="center">
     <div class="row">
@@ -45,19 +40,22 @@
                         </div>
                         </div>
 
-                        <div class="form-group">
-                            <label for="Imagen" class="col-md-12 col-form-label">Imagen</label>
-
-                            <div class="col-md-12">
-                                <input id="Imagen" type="text" class="form-control" name="Imagen" value="" required autofocus>
-                        </div>
-                        </div>
-
+                        
 
                         <div id="div_file">
                            <p id="texto"> Add Archivo</p> 
                         <input type="file" name="fichero" value="" id="fichero" >
                         </div>
+                        <br>
+
+                    <div class="hidden" id="progreso">
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                          aria-valuemin="0" aria-valuemax="100" id="barra-de-progreso" style="width:0%">
+                            <span class="sr-only">70% Complete</span>
+                          </div>
+                        </div>
+                    </div>
 
 
                          <br>
@@ -89,16 +87,61 @@
 };
 firebase.initializeApp(config);
 
+
 var database = firebase.database();
+
+window.onload=inicializar;
+var fichero;
+var storageRef;
+var imagenesFBRef;
+
+var image_url='';
+
+var downloadURL;
+
+
+function inicializar(){
+    fichero=document.getElementById("fichero");
+    fichero.addEventListener("change",subirImagenAfirebase, false);
+    storageRef=firebase.storage().ref();
+
+    imagenesFBRef=firebase.database().ref().child("Establecimiento/jbuywbeijwnvkj/producto");
+
+}
+
+
+function subirImagenAfirebase(){
+    var imagenASubir=fichero.files[0];
+    var uploadTask=storageRef.child('Imagenes_Producto/'+imagenASubir.name).put(imagenASubir);
+    document.getElementById("progreso").className="";
+
+uploadTask.on('state_changed',
+    function (snapshot){
+        var barraProgreso=(snapshot.bytesTransferred/ snapshot.totalBytes)*100;
+       document.getElementById("barra-de-progreso").style.width=barraProgreso+ "%";
+       
+    },
+    function (error){
+        alert("hubo un error");
+
+    },
+    function (){
+         downloadURL=uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
+         console.log("File available at", downloadURL);
+          self.image_url=downloadURL;
+          document.getElementById("progreso").className="hidden";
+        });
+        
+    });
+}
 
 // Add Data
 $('#agregarProducto').on('click', function(){
 
     var values = $("#addProducto").serializeArray();
-
     var Nombre = values[0].value;
     var Precio  = values[1].value;
-    var Url_Image=values[2].value
+    var Url_Image=self.image_url;
     
 
     firebase.database().ref('Establecimiento/jbuywbeijwnvkj/producto').push({
@@ -112,7 +155,6 @@ $('#agregarProducto').on('click', function(){
     
     $("#addProducto input").val("");
 });
-
 
 </script>
 @stop

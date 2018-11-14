@@ -23,21 +23,21 @@
       <table id="example1" class="table table-bordered table-striped">
         <thead>
         <tr>
-          <th>Nombre</th>
+          <th><center>Nombre</center></th>
          
-          <th>Precio</th>
-          <th>Imagen</th>
+          <th><center>Precio</center></th>
+          <th><center>Imagen</center></th>
 
-          <th>Acción</th>
+          <th><center>Acción</center></th>
 
         </tr>
         </thead>
         <tbody>
         @foreach ($all_subject as $producto)
         <tr>
-          <td>{{$producto['nombre']}}</td>
-          <td>{{$producto['precio']}}</td>
-          <td>{{$producto['urlImagen']}}</td>
+          <td><center>{{$producto['nombre']}}</center></td>
+          <td><center>{{$producto['precio']}}</center></td>
+          <td><center><img src="{{$producto['urlImagen']}}" style="height: 70px; width: 70px;"></center></td>
           
           <td>Borrar | Editar</td>
          
