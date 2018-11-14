@@ -1,21 +1,23 @@
-@extends('adminlte::page')
+@extends('pages.admin1')
 
 
-@section('title', 'AdminLte')
 
-
-@section('content_header')
-    <h1>Dashboard</h1>
-@stop
 
 
 @section('content')
-
+<section class="content-header">
+      <h1>
+        Clientes Registrados
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="http://localhost/easyPayLunchWeb-master/public/home"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Dashboard</li>
+      </ol>
+    </section>
 
 <div class="box">
-    <div class="box-header">
-      <h3 class="box-title">Clientes Registrados</h3>
-    </div>
+    
     <!-- /.box-header -->
     <div class="box-body">
       <table id="example1" class="table table-bordered table-striped">
