@@ -117,14 +117,14 @@ return [
         [
             'text'        => 'Clientes',
             'url'         => 'clientes',
-            'icon'        => 'file',
+            'icon'        => 'users',
             'label'       => 4,
             'label_color' => 'success',
         ],
         [
             'text'        => 'Productos',
             'url'         => 'productos',
-            'icon'        => 'file',
+            'icon'        => 'cubes',
             'label'       => 4,
             'label_color' => 'success',
         ],
