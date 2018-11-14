@@ -9,3 +9,4 @@ Version 1.3: Commit de app creacion de HomeController para la pagina principal
 Version 1.4: Commit de app creacion de la vista para la pagina principal
 Version 1.5: Mejora en la integración de vista home, edición de logo principal y recursos de la barra de navegación
 Version 1.6: Adaptación de iconos a la barra de navegación
+Version 1.7: Muestra de imagenes en el reporte de clientes

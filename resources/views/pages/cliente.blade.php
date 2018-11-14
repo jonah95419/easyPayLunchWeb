@@ -34,7 +34,7 @@
         @foreach ($all_subject as $cliente)
         <tr>
           <td>{{$cliente['nombre']}}</td>
-          <td>{{$cliente['imagen']}}</td>
+        <td><img src="{{$cliente['imagen']}}" style="height: 50px; width: 50px;"></td>
           <td>{{$cliente['mail']}}</td>
           <td>{{$cliente['tokenUser']}}</td>
           <td>Borrar | Editar</td>
