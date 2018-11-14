@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Easy Pay</b> Lunch',
 
-    'logo_mini' => '<b>A</b>LT',
+    'logo_mini' => '<b>EP</b>L',
 
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'skin' => 'blue',
+    'skin' => 'green',
 
     /*
     |--------------------------------------------------------------------------
@@ -108,20 +108,27 @@ return [
     */
 
     'menu' => [
-        'MAIN NAVIGATION',
+        'Administrador',
         [
             'text' => 'Blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'Pages',
-            'url'         => 'admin/pages',
+            'text'        => 'Clientes',
+            'url'         => 'clientes',
             'icon'        => 'file',
             'label'       => 4,
             'label_color' => 'success',
         ],
-        'ACCOUNT SETTINGS',
+        [
+            'text'        => 'Productos',
+            'url'         => 'productos',
+            'icon'        => 'file',
+            'label'       => 4,
+            'label_color' => 'success',
+        ],
+        /*'ACCOUNT SETTINGS',
         [
             'text' => 'Profile',
             'url'  => 'admin/settings',
@@ -169,8 +176,8 @@ return [
                     'url'  => '#',
                 ],
             ],
-        ],
-        'LABELS',
+        ],*/
+        /*'LABELS',
         [
             'text'       => 'Important',
             'icon_color' => 'red',
@@ -182,7 +189,7 @@ return [
         [
             'text'       => 'Information',
             'icon_color' => 'aqua',
-        ],
+        ],*/
     ],
 
     /*

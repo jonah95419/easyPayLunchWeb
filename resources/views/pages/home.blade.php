@@ -1,4 +1,4 @@
-@extends('pages.admin1')
+@extends('adminlte::page')
 
 
 
